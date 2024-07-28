@@ -65,6 +65,7 @@ export default defineConfig({
   title: "SEUThesis-Word",
   description: "基于Word样式和自动编号的东南大学硕士学位论文模板， 旨在帮助更高效地编写学位论文。模板支持多种自动化格式更新功能，只需要输入内容，并应用相应的格式，文档会自动呈现出符合要求的外观。",
   lang: 'zh-CN',
+  base: '/SEUThesis-Word/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
