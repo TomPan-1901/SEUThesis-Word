@@ -98,7 +98,8 @@ export default defineConfig({
     }
   },
   head: [
-    ['meta', { name: 'msvalidate.01', content: '143C3D6D8AD7E9A7822E8772A4AC0E72' }]
+    ['meta', { name: 'msvalidate.01', content: '143C3D6D8AD7E9A7822E8772A4AC0E72' }],
+    ['meta', { name: 'google-site-verification', content: 'fpLO2Ckk6Kfvk6E8rgD_yGINH7-ums8VFW6Vqmoq4gw' }]
   ],
   rewrites: {
     'README.md': 'docs.md'
