@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # SEUThesis-Word: 东南大学硕士学位论文Word模板 Southeast University Master's Thesis Word Template
 
 内网用户也可以直接在SEU GitLab访问[此项目](https://gitlab.seu.edu.cn/220232291/seuthesis-word)。
@@ -6,6 +10,10 @@
 
 这是一个基于Word样式和自动编号的东南大学硕士学位论文模板，
 旨在帮助更高效地编写学位论文。模板支持多种自动化格式更新功能，只需要输入内容，并应用相应的格式，文档会自动呈现出符合要求的外观。
+
+项目的文档网站是[https://tompan-1901.github.io/SEUThesis-Word](https://tompan-1901.github.io/SEUThesis-Word)。
+
+文档中的设置参考了视频[word教程 | 你的下一个LaTex何必是LaTex](https://www.bilibili.com/video/BV1se411U7Dy)，也向视频作者表达感谢。
 
 ## 特性
 
