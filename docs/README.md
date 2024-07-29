@@ -1,5 +1,6 @@
 ---
 outline: deep
+title: 说明文档
 ---
 
 # SEUThesis-Word: 东南大学硕士学位论文Word模板 Southeast University Master's Thesis Word Template
