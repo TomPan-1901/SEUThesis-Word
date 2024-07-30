@@ -72,9 +72,10 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
-      { text: '文档', link: '/docs' },
-      { text: '下载', link: '/download' }
+      { text: '文档', link: '/' },
+      { text: '下载', link: '/download' },
+      { text: 'GitHub项目仓库', link: 'https://github.com/TomPan-1901/SEUThesis-Word' },
+      { text: 'SEU GitLab项目仓库', link: 'https://gitlab.seu.edu.cn/220232291/seuthesis-word' },
     ],
 
     sidebarMenuLabel: '菜单',
@@ -83,7 +84,7 @@ export default defineConfig({
       {
         text: '使用说明',
         items: [
-          { text: '说明文档', link: '/docs' },
+          { text: '文档', link: '/' },
           { text: '下载', link: '/download' },
           { text: '实用链接', link: '/useful-links' },
         ]
@@ -91,8 +92,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TomPan-1901/SEUThesis-Word' },
-      { icon: {svg: gitlabSvg}, link: 'https://gitlab.seu.edu.cn/220232291/seuthesis-word' },
+      { icon: 'github', link: 'https://github.com/TomPan-1901' },
+      { icon: {svg: gitlabSvg}, link: 'https://gitlab.seu.edu.cn/220232291' },
     ],
     docFooter: {
       prev: '上一篇',
@@ -107,6 +108,6 @@ export default defineConfig({
     ['meta', { name: 'google-site-verification', content: 'fpLO2Ckk6Kfvk6E8rgD_yGINH7-ums8VFW6Vqmoq4gw' }]
   ],
   rewrites: {
-    'README.md': 'docs.md'
-  }
+    'README.md': 'index.md',
+  },
 })

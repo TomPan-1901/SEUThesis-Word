@@ -7,6 +7,8 @@ title: 说明文档
 
 内网用户也可以直接在SEU GitLab访问[此项目](https://gitlab.seu.edu.cn/220232291/seuthesis-word)。
 
+**想直接下载模板，请点击[这里](./download.md)。**
+
 ## 项目简介
 
 这是一个基于Word样式和自动编号的东南大学硕士学位论文模板，
