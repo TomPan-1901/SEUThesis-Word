@@ -62,8 +62,8 @@ const gitlabSvg = `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 `
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "SEUThesis-Word: 东南大学硕士学位论文Word模板",
-  description: "基于Word样式和自动编号的东南大学硕士学位论文模板， 旨在帮助更高效地编写学位论文。模板支持多种自动化格式更新功能，只需要输入内容，并应用相应的格式，文档会自动呈现出符合要求的外观。",
+  title: "SEUThesis-Word: 东南大学硕士学位论文Word模板, 东大研究生论文模板, 研究生论文格式",
+  description: "基于Word样式和自动编号的东南大学硕士学位论文模板， 根据东南大学研究生院提供的规范创建，旨在帮助研究生更高效地编写学位论文。模板支持多种自动化格式更新功能，只需要输入内容，并应用相应的格式，文档会自动呈现出符合要求的外观。",
   lang: 'zh-CN',
   base: '/SEUThesis-Word/',
   themeConfig: {
