@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: 在撰写东南大学研究生学位论文过程中，可能用到的资源，包括论文格式规定、如何安装东大正版Office、UnicodeMath公式输入、Zotero下载链接。
 ---
 
 # 实用链接
