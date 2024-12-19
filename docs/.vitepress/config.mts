@@ -74,6 +74,7 @@ export default defineConfig({
     nav: [
       { text: '文档', link: '/' },
       { text: '下载', link: '/download' },
+      { text: '🌟SEU视觉识别系统🌟', link: '/seu-vis' },
       { text: 'GitHub项目仓库', link: 'https://github.com/TomPan-1901/SEUThesis-Word' },
       { text: 'SEU GitLab项目仓库', link: 'https://gitlab.seu.edu.cn/220232291/seuthesis-word' },
     ],
@@ -104,13 +105,13 @@ export default defineConfig({
     }
   },
   head: [
-    ['meta', { name: 'msvalidate.01', content: '143C3D6D8AD7E9A7822E8772A4AC0E72' }],
     ['meta', { name: 'google-site-verification', content: 'fpLO2Ckk6Kfvk6E8rgD_yGINH7-ums8VFW6Vqmoq4gw' }],
     ['script', { type: 'text/javascript' }, `(function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "nfepvxnnyn");`],
+    ['script', { type: 'text/javascript'}, `<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bf24c213a96f4789acdec9e3af0a6bff"}'></script><!-- End Cloudflare Web Analytics -->`],
   ],
   rewrites: {
     'README.md': 'index.md',

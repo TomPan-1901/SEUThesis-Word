@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="120.23746"
+   height="358.43677"
+   viewBox="0 0 120.23746 358.43677"
+   sodipodi:docname="大礼堂-剪影.pdf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath684">
+      <path
+         d="M 0,595.276 H 841.89 V 0 H 0 Z"
+         transform="translate(-339.04981,-361.33991)"
+         id="path684" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath686">
+      <path
+         d="M 0,595.276 H 841.89 V 0 H 0 Z"
+         transform="translate(-275.41891,-317.14751)"
+         id="path686" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath688">
+      <path
+         d="M 0,595.276 H 841.89 V 0 H 0 Z"
+         transform="translate(-353.50781,-366.73981)"
+         id="path688" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="120.23746"
+       height="358.43677"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="layer-MC0"
+     inkscape:groupmode="layer"
+     inkscape:label="图层 1"
+     transform="translate(-351.10641,-258.23267)">
+    <path
+       id="path683"
+       d="m 0,0 c -5.528,-2.818 -8.075,-4.877 -9.848,-6.395 l 5.138,0.052 -0.002,-11.812 c 0,0 -19.025,-2.32 -37.595,-13.987 -16.713,-10.5 -29.803,-29.466 -33.413,-35.017 V -228.566 H 14.458 V 5.4 C 11.149,4.522 4.441,2.264 0,0"
+       style="fill:#527158;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,452.0664,311.9148)"
+       clip-path="url(#clipPath684)"
+       inkscape:export-filename="大礼堂-剪影-纵向.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path685"
+       d="m 0,0 c 9.24,9.034 20.299,16.203 32.87,21.31 9.564,3.884 18.081,5.79 23.923,6.722 v 7.757 l -8.73,-0.004 2.608,2.029 3.458,2.636 c 0.822,0.621 5.319,3.869 13.162,6.819 l 0.008,0.003 c 3.78,1.398 7.921,2.503 10.79,3.173 V 84.454 H -12.089 V -13.557 C -8.327,-8.477 -4.943,-4.839 0,0"
+       style="fill:#fbc707;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,367.2252,370.838)"
+       clip-path="url(#clipPath686)" />
+    <path
+       id="path687"
+       d="M 0,0 V 0.852 C -2.869,0.182 -7.01,-0.923 -10.79,-2.32 l -0.008,-0.003 c -7.843,-2.951 -12.34,-6.198 -13.162,-6.819 l -3.458,-2.636 -2.608,-2.03 8.73,0.005 v -7.757 c -5.842,-0.932 -14.359,-2.838 -23.923,-6.722 -12.571,-5.107 -23.63,-12.277 -32.87,-21.31 -4.943,-4.839 -8.327,-8.477 -12.089,-13.558 v -9.409 c 3.61,5.551 16.7,24.517 33.413,35.017 18.57,11.667 37.595,13.987 37.595,13.987 l 0.002,11.812 -5.138,-0.052 c 1.773,1.518 4.32,3.577 9.848,6.395 C -10.017,-3.136 -3.309,-0.878 0,0"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,471.34373,304.71493)"
+       clip-path="url(#clipPath688)" />
+  </g>
+</svg>
