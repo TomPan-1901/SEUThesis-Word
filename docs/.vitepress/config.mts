@@ -111,7 +111,7 @@ export default defineConfig({
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "nfepvxnnyn");`],
-    ['script', { type: 'text/javascript'}, `<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bf24c213a96f4789acdec9e3af0a6bff"}'></script><!-- End Cloudflare Web Analytics -->`],
+    ['script', { defer: '', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "bf24c213a96f4789acdec9e3af0a6bff"}'},],
   ],
   rewrites: {
     'README.md': 'index.md',
