@@ -50,7 +50,7 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
         悬浮鼠标查看完整效果
       </div>
     </div>
-    <div>中文标准字竖式</div>
+    <div>标准字竖式</div>
     <button @click="handleDownload">下载svg</button>
   </div>
 </div>
@@ -73,12 +73,12 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
 <div :class="$style.StandardComb">
   <div :class="$style.StandardCombImg">
     <img src="./figures/seu-vis/standard-combination/东南大学彩色中文校标组合-左右.svg"  />
-    <div>彩色校标中英文字组合</div>
+    <div>彩色校标中文组合</div>
     <button @click="handleDownload">下载svg</button>
   </div>
   <div :class="$style.StandardCombImg">
     <img src="./figures/seu-vis/standard-combination/东南大学黑白中文校标组合-左右.svg"  />
-    <div>黑白校标中英文字组合</div>
+    <div>黑白校标中文组合</div>
     <button @click="handleDownload">下载svg</button>
   </div>
 </div>
@@ -86,12 +86,12 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
 <div :class="$style.StandardComb">
   <div :class="$style.StandardCombImg">
     <img src="./figures/seu-vis/standard-combination/东南大学彩色中英文字校标组合-上下.svg"  />
-    <div>彩色校标中英文字组合</div>
+    <div>彩色校标中英文字组合-上下</div>
     <button @click="handleDownload">下载svg</button>
   </div>
   <div :class="$style.StandardCombImg">
     <img src="./figures/seu-vis/standard-combination/东南大学黑白中英文字校标组合-上下.svg"  />
-    <div>黑白校标中英文字组合</div>
+    <div>黑白校标中英文字组合-上下</div>
     <button @click="handleDownload">下载svg</button>
   </div>
 </div>
@@ -99,12 +99,12 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
 <div :class="$style.StandardComb">
   <div :class="$style.StandardCombImg">
     <img src="./figures/seu-vis/standard-combination/东南大学彩色中文字校标组合-上下.svg"  />
-    <div>彩色校标中文字组合</div>
+    <div>彩色校标中文组合-上下</div>
     <button @click="handleDownload">下载svg</button>
   </div>
   <div :class="$style.StandardCombImg">
     <img src="./figures/seu-vis/standard-combination/东南大学黑白中文字校标组合-上下.svg"  />
-    <div>黑白校标中文字组合</div>
+    <div>黑白校标中文组合-上下</div>
     <button @click="handleDownload">下载svg</button>
   </div>
 </div>
@@ -117,7 +117,7 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
         悬浮鼠标查看完整效果
       </div>
     </div>
-    <div>彩色校标中英文字组合</div>
+    <div>彩色校标中英文字组合-竖式</div>
     <button @click="handleDownload">下载svg</button>
   </div>
   <div :class="$style.StandardCombImg">
@@ -127,7 +127,7 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
         悬浮鼠标查看完整效果
       </div>
     </div>
-    <div>黑白校标中英文字组合</div>
+    <div>黑白校标中英文字组合-竖式</div>
     <button @click="handleDownload">下载svg</button>
   </div>
 </div>
@@ -140,7 +140,7 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
         悬浮鼠标查看完整效果
       </div>
     </div>
-    <div>彩色校标中英文字组合</div>
+    <div>彩色校标中文组合</div>
     <button @click="handleDownload">下载svg</button>
   </div>
   <div :class="$style.StandardCombImg">
@@ -150,7 +150,7 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
         悬浮鼠标查看完整效果
       </div>
     </div>
-    <div>黑白校标中英文字组合</div>
+    <div>黑白校标中文组合</div>
     <button @click="handleDownload">下载svg</button>
   </div>
 </div>
@@ -280,7 +280,7 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
 <div :class="$style.StandardMotto">
   <div :class="$style.StandardMottoImg">
     <img src="./figures/seu-vis/university-motto/校训横排.svg"  />
-    <div>标准字横排</div>
+    <div>校训标准字横排</div>
     <button @click="handleDownload">下载svg</button>
   </div>
 
@@ -291,7 +291,7 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
         悬浮鼠标查看完整效果
       </div>
     </div>
-    <div>中文标准字竖式</div>
+    <div>校训标准字竖式</div>
     <button @click="handleDownload">下载svg</button>
   </div>
 </div>
@@ -372,7 +372,11 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
 
   function handleDownload(e) {
     const parentNode = e.target.parentNode
-    window.open(parentNode.childNodes[0].src)
+    const a = document.createElement('a')
+    a.href = parentNode.childNodes[0].src
+    a.download = parentNode.childNodes[1].textContent + '.svg'
+    a.click()
+    window.clarity('event', 'download')
   }
 </script>
 

@@ -112,6 +112,7 @@ export default defineConfig({
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "nfepvxnnyn");`],
     ['script', { defer: '', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "bf24c213a96f4789acdec9e3af0a6bff"}'},],
+    ['script', { type: 'text/javascript'}, `window.onload = () => window.clarity('consent')`]
   ],
   rewrites: {
     'README.md': 'index.md',
