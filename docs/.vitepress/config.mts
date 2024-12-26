@@ -112,7 +112,9 @@ export default defineConfig({
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "nfepvxnnyn");`],
     ['script', { defer: '', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "bf24c213a96f4789acdec9e3af0a6bff"}'},],
-    ['script', { type: 'text/javascript'}, `window.onload = () => window.clarity('consent')`]
+    ['script', { type: 'text/javascript'}, `window.onload = () => window.clarity('consent')`],
+    ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6864290273818399', 'crossorigin': 'anonymous'},],
+    ['script', { type: 'text/javascript'}, `(adsbygoogle = window.adsbygoogle || []).push({});`],
   ],
   rewrites: {
     'README.md': 'index.md',

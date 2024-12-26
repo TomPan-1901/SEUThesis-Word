@@ -15,6 +15,8 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
 
 您可以将这一页的素材用于汇报ppt中，或者其他需要东南大学视觉识别系统素材的场合。请注意，这些素材是由[东南大学视觉识别系统](https://www.seu.edu.cn/bsxtwxw/main.htm)提供的，请尊重原作者版权，在合适的场合使用。
 
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6864290273818399" data-ad-slot="2561406157" data-ad-format="auto" data-full-width-responsive="true"></ins>
+
 ## 校标
 
 <div :class="$style.StandardLogo">

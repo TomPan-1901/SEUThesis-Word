@@ -14,6 +14,8 @@ description: 基于Word样式和自动编号的东南大学研究生学位论文
 
 **需要东南大学元素的PowerPoint素材，也可以看看[这里](./seu-vis.md)。**
 
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6864290273818399" data-ad-slot="3874487822" data-ad-format="auto" data-full-width-responsive="true"></ins>
+
 ## 项目简介
 
 这是一个基于Word样式和自动编号的东南大学硕士学位论文模板，
