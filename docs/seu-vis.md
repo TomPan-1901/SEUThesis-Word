@@ -1,9 +1,10 @@
 ---
 outline: deep
-description: 东南大学视觉识别系统，提供了由东南大学官网提供的视觉识别规范pdf导出的相关素材，包括校标、校名标准字、校标校名组合、标准色、校训字体、象征图形。
+titleTemplate: 东南大学标准字，东南大学校徽，东南大学字体，免费设计素材
+description: 东南大学视觉识别系统矢量图素材，提供了由东南大学官网提供的视觉识别规范pdf导出的相关svg矢量图素材，包括校标、校名标准字、校标校名组合、标准色、校训字体、象征图形，可以将这些素材用于PowerPoint幻灯片、宣传上，更好的体现学校形象。
 ---
 
-# 东南大学视觉识别系统
+# 东南大学视觉识别系统矢量图素材
 
 ## 简介
 
@@ -434,6 +435,21 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
     background: #dee3de;
   }
 
+  :global(.dark) .StandardLogoImg button,
+  :global(.dark) .StandardFontImg button,
+  :global(.dark) .StandardCombImg button,
+  :global(.dark) .StandardMottoImg button {
+    background: #302c2c;
+  }
+
+  :global(.dark) .StandardLogoImg img,
+  :global(.dark) .StandardFontImg img,
+  :global(.dark) .StandardCombImg img,
+  :global(.dark) .StandardMottoImg img {
+    background: #c2c2c2;
+    padding: 5px;
+  }
+
   .StandardFont, .StandardMotto {
     width: 100%;
     margin: 0 auto;
@@ -477,6 +493,10 @@ description: 东南大学视觉识别系统，提供了由东南大学官网提�
     top: 0;
     left: 0;
     background: rgba(255, 255, 255, 0.9);
+  }
+
+  :global(.dark) .Mask {
+    background: rgba(0,0,0,0.7);
   }
 
   .ColorSpec {
