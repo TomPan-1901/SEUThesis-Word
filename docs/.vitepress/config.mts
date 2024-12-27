@@ -102,6 +102,9 @@ export default defineConfig({
     },
     outline: {
         label: '页面导航'
+    },
+    lastUpdated: {
+        text: '最后更新'
     }
   },
   head: [
@@ -119,4 +122,8 @@ export default defineConfig({
   rewrites: {
     'README.md': 'index.md',
   },
+  sitemap: {
+    hostname: 'https://tompan-1901.github.io/SEUThesis-Word',
+  },
+  lastUpdated: true
 })
