@@ -123,7 +123,7 @@ export default defineConfig({
     'README.md': 'index.md',
   },
   sitemap: {
-    hostname: 'https://tompan-1901.github.io/SEUThesis-Word',
+    hostname: 'https://tompan-1901.github.io/SEUThesis-Word/',
   },
   lastUpdated: true
 })
