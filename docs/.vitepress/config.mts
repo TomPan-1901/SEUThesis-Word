@@ -109,11 +109,6 @@ export default defineConfig({
   },
   head: [
     ['meta', { name: 'google-site-verification', content: 'fpLO2Ckk6Kfvk6E8rgD_yGINH7-ums8VFW6Vqmoq4gw' }],
-    ['script', { type: 'text/javascript' }, `(function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "nfepvxnnyn");`],
     ['script', { defer: '', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "bf24c213a96f4789acdec9e3af0a6bff"}'},],
     ['script', { type: 'text/javascript'}, `window.onload = () => window.clarity('consent')`],
     ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6864290273818399', 'crossorigin': 'anonymous'},],
